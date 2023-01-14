@@ -1,0 +1,122 @@
+.home-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 10px; 
+    
+}
+
+
+
+.picture1 > img {
+    display: flex;
+    float: left;
+    width: 50%;
+    height: 25%;
+    border: 4px solid whitesmoke;
+    border-radius: 16px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+/* Homepage text*/
+.text-box1 {
+background-color: whitesmoke;
+border:2px solid lightpink;
+border-radius: 25px;
+display: flow-root;
+align-self: flex-end;
+line-height: 1.5em;
+
+}
+
+.header1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-decoration:underline 2px;
+    color: lightpink;
+    font-weight:bolder;  
+}
+
+.purpose {
+    display: flex;
+    font-size: large;
+    padding-left: 32px;
+    padding-right: 10px;
+    color: lightpink;
+    line-height: 1.5em;
+}
+
+.text-box2 {
+    background-color: whitesmoke;
+    border:2px solid lightpink;
+    border-radius: 25px;
+    display: flow-root;
+    align-self: flex-end;
+    line-height: 1.5em;
+    margin-top: 60px;
+}
+.header2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-decoration:underline 2px;
+    color: lightpink;
+    font-weight:bolder;
+    line-height: 1.5em;  
+}
+.mow{
+    font-size: large;
+    padding-left: 32px;
+    padding-right: 10px;
+    line-height: 1.5em;
+    color: lightpink;
+}
+.mow > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.text-box3 {
+    background-color: whitesmoke;
+    border:2px solid lightpink;
+    border-radius: 25px;
+    margin-top: 60px; 
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+.header3 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-decoration:underline 2px;
+    color: lightpink;
+    font-weight:bolder; 
+    line-height: 1em;
+}
+.submit-mow > h2 {
+    display: flex;
+    justify-content: center;
+    line-height: 1em;
+}
+.submit-mow {
+    font-size: large;
+    padding-left: 32px;
+    padding-right: 10px;
+    line-height: 2em;
+    color: lightpink;
+}
+.mikayla-story{
+    font-size: large;
+    padding-left: 32px;
+    padding-right: 10px;
+    line-height: 2em;
+    color: white;
+}
+.mikayla-story-img {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}

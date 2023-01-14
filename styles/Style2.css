@@ -1,0 +1,329 @@
+/*Navigation Bar Start*/
+.navigation {
+    display: grid;
+    grid-template-columns: 25% 45% 10% 10% 10% ;
+    border-bottom: solid 2px whitesmoke;
+    background-color: #FCC5e2; in
+    }
+    
+    
+    .links {
+    display: flex;
+    }
+    .links > div {
+        margin: auto ;
+    }
+    
+    .link > a {
+        color: white;
+          text-decoration: none;
+          padding-bottom: 10px;
+          font-size: 20px;
+          text-shadow: 1px 1px #85ebff;
+    }
+     .link a:hover {
+      color: black;
+      text-shadow: 2px 2px whitesmoke;
+      border-bottom: solid 2px #85ebff;
+     }
+    
+    
+    
+    .TMV{
+    
+        margin: auto;
+        font-size: 2em;
+        font-weight: bolder;
+        text-shadow: 2px 2px whitesmoke;
+    
+    }
+    
+    .message {
+        align-self: flex-end;
+    }
+    
+    .regs {
+        margin: auto;
+    }
+    .brand{
+        display: flex;
+        justify-content: right;
+        padding-right: 10px ;
+    }
+    
+    .reg{
+        background-color: #aaa;
+          width: 60px;
+          text-align: center;
+          padding: 4px;
+          border-radius: 4px;
+          margin-bottom: 10px;
+          color: black;
+          text-decoration: none;
+    }
+    
+    .reg > a{
+        color: black;
+        text-decoration: none;
+        padding-bottom: 10px;
+        font-size: 14px;
+       }
+    
+      .reg:hover {
+        color: whitesmoke;
+        border: solid 2px #85ebff
+      }
+    
+      .reg > a:hover {
+        color: #FCC5e2    
+}
+/*Navigation Bar end*/
+
+/*Signup.php styles Start*/
+
+.signup_body{
+	font-family: Tahoma;
+	background-color: #FCC5e2;
+	margin: 0%;
+	background-image: url(images/signupbkg.jpg);
+}
+
+#signup_box{
+    background-color:whitesmoke;
+    width: 800px;
+    height:500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+#signup_text{
+    height: 40px;
+    width: 300px;
+    border-radius: 4px;
+    border: solid 1px #aaa ;
+    padding: 4px;
+    font-size: 14px;
+}
+
+#signup_button{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none ;
+    background-color: #85ebff;
+}
+/*Signup.php styles End*/
+
+/*Login.php styles Start*/
+.login_body > .navigation {
+	background-color: #fcc5e2;
+}
+
+#login_box {
+			
+	max-width: 800px;
+	height:300px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px;
+	text-align: center;
+	padding-top: 50px;
+	border-radius: 15px;
+	background-color: #fcc5e2;
+	border: solid 3px #85ebff;
+}
+
+#login_box > h1 {
+	align-self: center;
+}
+/*Login.php styles End*/
+
+/*Home.php styles Start*/
+
+.content {
+    display: flex;
+    margin-top: 0% ;
+   }
+  
+  .home_left_img1 {
+  
+  flex: 1;
+  padding-left: 10px;
+  }
+  
+  .home_left_img1 > img {
+    width: 100%;
+    height: 100%;
+    border: solid #FCC5e2 2px;
+    border-top: transparent ;
+    border-radius: 4px;
+  }
+  .home_right_txt1 {
+      flex: 2;
+      display: inline-block;
+      margin-left: 10px;
+      padding-right: 10px;
+      
+  
+  }
+  .txtbox1{
+      justify-content: center;
+      width: 100%;
+  }
+  
+   .txtbox1 > h1 {
+      text-align: center;
+      margin-top: 0%;
+      font-size: 80px;
+      flex-shrink: 2;
+      text-shadow: 2px 2px whitesmoke;
+  
+      
+  }
+  
+  
+  .txtbox1 > p {
+      text-align: center;
+      font-size: 20px;
+      line-height: 2em;
+      color: whitesmoke;
+      padding-left: 10px;
+      padding-right: 10px;
+      flex-shrink: 1;
+      text-shadow: 1px 1px black;
+  
+  
+  
+  }
+  .item{
+      position: relative;
+  }
+  .bkg_img{
+      height: 400px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 4px;
+          
+  }
+  .txtbox1 {
+      position: absolute;
+  }
+  
+  .home_pgbk {
+      text-align: center;
+      text-shadow: 2px 2px whitesmoke;
+      background-color: #FCC5e2;
+      height: 100%;
+  
+      /*
+  ********************* 1st Row of content END ************************************ 
+  */  
+      
+  
+      /*
+  ********************* 2nd Row of content Start ************************************ 
+  */  
+  }
+  .content2 {
+      display: flex;
+        margin-top: 10px ;
+        margin-bottom: 10px;
+        background-color: #FCC5e2;
+  }
+  
+  .left-side{
+      flex: .5;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  
+  .right-side{
+      flex: 2.5;
+      display: grid;
+      grid-template-rows: 70% 30% ;
+  }
+  
+  .mow_img > img {
+      width: 100%;
+      margin-bottom: 8px;
+      border: #FCC5e2 solid 2px;
+      border-radius: 4px;
+  }
+  .mow_name {
+      text-align: center;
+      font-size: 18px;
+      color: whitesmoke;
+      width: fit-content;
+      margin: auto;
+      padding: 2px;
+      border: solid #85ebff 2px;
+      border-radius: 4px;
+     
+  }
+  
+  .mow_text_box {
+      background-color: #FCC5e2;
+      border: solid 4px #85ebff;
+      border-radius: 4px;
+      margin-right: 10px;
+      margin-top: 10px;
+      line-height: 2em;
+      text-align: center;
+      padding: 10px;
+  }
+  
+  .submit_mow {
+      margin-top: 10px;
+      margin: auto;
+  }
+  /*Home.php styles end*/
+
+  /*About.php styles Start*/
+  .mikayla-story {
+    font-size: large;
+    line-height: 2em;
+    color: black;
+    margin-top: 10px;
+
+    
+}
+#p {
+    background-color: #FCC5e2;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 8px solid #85ebff; 
+    text-shadow: 1px 1px whitesmoke;
+}
+.mikayla-story-img {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+  /*About.php styles End*/
+  
+  /*Share.php styles Start*/
+.coming_soon {
+    text-align: center;
+    margin: auto;
+}
+    /*Share.php styles Start*/
+.coming_soon {
+			
+	max-width: 800px;
+	height:300px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px;
+	text-align: center;
+	padding-top: 50px;
+	border-radius: 15px;
+	background-color: #fcc5e2;
+	border: solid 3px #85ebff;
+}
